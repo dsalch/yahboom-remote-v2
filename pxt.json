@@ -1,0 +1,31 @@
+{
+    "name": "Infrared-control-CarV2",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "mbit": "github:lzty634158/yahboom_mbit_en#ec0be625edd52ff7e5e0f4bbc92d43cb3c3205d3",
+        "Mbit_IR": "github:YahboomTechnology/Yahboom_IR#f9c852a02f4d647a6d76b7f495535ecb9dde7108"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v4.0.16",
+        "tag": "v4.0.16",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/04b1a5492fb75af626caed5601ee8d794d970dd7",
+        "target": "4.0.24",
+        "pxt": "7.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
